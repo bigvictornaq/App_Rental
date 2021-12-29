@@ -4,7 +4,8 @@ import 'package:app_rentita_house/models/Property.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 
-import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
+
 import 'package:fluttericon/font_awesome_icons.dart';
 
 // ignore: must_be_immutable
@@ -74,7 +75,7 @@ class _PropertyDetailScreenState extends State<PropertyDetailScreen> {
                 itemWidth: 340,
                 itemHeight: 400,
                 index: 1,
-                itemCount: widget.propertyDetails?.length,
+                itemCount: widget.propertyDetails!.length,
                 itemBuilder: (BuildContext context, int index) {
                   return PropertyDetailCard(
                       image: widget.propertyDetails?[index].image,

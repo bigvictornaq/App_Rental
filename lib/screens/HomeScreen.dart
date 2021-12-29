@@ -3,7 +3,7 @@ import 'package:app_rentita_house/library/Common.dart';
 import 'package:app_rentita_house/library/MyAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
