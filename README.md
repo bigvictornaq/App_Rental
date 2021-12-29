@@ -1,6 +1,8 @@
+# :boom: :boom: NOT FOR COMMERCIAL USE !!! :boom: :boom:
+
 # app_rentita_house
 
-A new Flutter application.
+Null safety
 
 ## Getting Started
 
